@@ -8,8 +8,6 @@ const assertEqual = function(actual, expected){
 
 // TEST CASES
 
-console.log(assertEqual("Lighthouse Labs", "Bootcamp"));
-console.log(assertEqual(1, 1));
-console.log(assertEqual(1, "lighthouse"));
-console.log(assertEqual(true, 1));
-console.log(assertEqual(true, "hello"));
+
+
+module.exports = assertEqual;

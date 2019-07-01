@@ -44,3 +44,6 @@ const assertArraysEqual = function(array1, array2){
 assertArraysEqual(['g', 'c', 't', 'm', 't'], map(words, word => word[0]));
 assertArraysEqual(['d', 'l', 'o', 'r', 'm'], map(words, word => word[word.length - 1]));
 assertArraysEqual([25, 125], map(nums, num => num * 5));
+
+
+module.exports = map;

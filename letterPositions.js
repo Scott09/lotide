@@ -24,3 +24,5 @@ const letterPositions = (str) => {
 
 
 console.log(letterPositions("hello world"));
+
+module.exports = letterPositions;

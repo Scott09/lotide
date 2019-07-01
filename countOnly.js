@@ -51,3 +51,6 @@ console.log(assertEqual(result1["Fang"], 2));
 
 console.log(countOnly(firstNames, testObject));
 
+
+module.exports = countOnly;
+

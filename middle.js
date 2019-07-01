@@ -39,3 +39,6 @@ console.log(middle([1,2,3]));
 // Test cases using assertArraysEqual
 
 console.log(assertArraysEqual([2, 3], middle([1,2,3,4])));
+
+
+module.exports = middle;
